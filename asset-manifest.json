@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3f06f8ae.css",
+    "main.js": "/portfolio/static/js/main.d6e576da.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/wild-heroes.webp": "/portfolio/static/media/wild-heroes.3c8462f8107c8f1d5e50.webp",
+    "static/media/map.webp": "/portfolio/static/media/map.3d3122b06c6bd7c1ecb2.webp",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.2d3eb2e69cb6a0fdb9ca.pdf",
+    "static/media/ohmyfood.webp": "/portfolio/static/media/ohmyfood.1a3c7526851943ed1e48.webp",
+    "static/media/3ifa.webp": "/portfolio/static/media/3ifa.da4ced18dafce9766454.webp",
+    "static/media/wild-restau.webp": "/portfolio/static/media/wild-restau.41974b0953a5929f60c4.webp",
+    "static/media/panthere.webp": "/portfolio/static/media/panthere.0a3b615157b446020583.webp",
+    "static/media/lunetic.webp": "/portfolio/static/media/lunetic.e81fc5b99965d9e5f7f3.webp",
+    "static/media/rzo.webp": "/portfolio/static/media/rzo.a98d534b8ac4e91b886b.webp",
+    "static/media/portrait.webp": "/portfolio/static/media/portrait.b2cf0641aa8343dd8cc2.webp",
+    "static/media/linkedin.webp": "/portfolio/static/media/linkedin.e5ac233f4c36733820f0.webp",
+    "static/media/MD.webp": "/portfolio/static/media/MD.69f45ac5edfebdebf7e6.webp",
+    "index.html": "/portfolio/index.html",
+    "static/media/github.webp": "/portfolio/static/media/github.553df310e33855fbd324.webp",
+    "main.3f06f8ae.css.map": "/portfolio/static/css/main.3f06f8ae.css.map",
+    "main.d6e576da.js.map": "/portfolio/static/js/main.d6e576da.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f06f8ae.css",
+    "static/js/main.d6e576da.js"
+  ]
+}
