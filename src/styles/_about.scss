@@ -1,0 +1,88 @@
+.about {
+  margin-left: 8rem;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20%;
+
+  &__title {
+    font-size: 4rem;
+    color: $color1;
+  }
+
+  &__firstparagraph {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+
+  &__presentation {
+    width: 40%;
+    text-align: justify;
+  }
+
+  &__portrait {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url("../assets/portrait.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .purple-text {
+    color: $color2;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .about {
+    flex-direction: column;
+
+    &__presentation {
+      width: 80%;
+    }
+
+    &__portrait {
+      height: 350px;
+      width: 350px;
+      margin: 10% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .about {
+    margin-left: 0;
+
+    &__title {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about {
+    &__portrait {
+      height: 300px;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about {
+    &__title {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    &__portrait {
+      height: 250px;
+      width: 250px;
+    }
+  }
+}

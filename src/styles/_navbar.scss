@@ -1,0 +1,134 @@
+.navbar {
+  background-color: $background-grey;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 100vh;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 1000;
+
+  div {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo-md {
+      width: 80px;
+      height: 80px;
+      background-image: url("../assets/MD.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid black;
+
+    a {
+      text-decoration: none;
+      color: white;
+      line-height: 5rem;
+      width: 100%;
+      text-align: center;
+    }
+
+    & > div {
+      border-bottom: 1px solid black;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &-about:hover a,
+    &-contact:hover a {
+      color: $color1;
+    }
+
+    &-projects:hover a {
+      color: $color2;
+    }
+  }
+
+  &__networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+
+    .linkedin {
+      width: 30px;
+      height: 30px;
+      background-image: url("../assets/linkedin.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .github {
+      width: 30px;
+      height: 30px;
+      background-image: url("../assets/github.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .navbar {
+    width: 100vw;
+    height: 4rem;
+    flex-direction: row;
+    font-size: 0.8rem;
+
+    &__menu {
+      flex-direction: row;
+      border-top: none;
+      border-left: 1px solid black;
+      width: 60%;
+
+      a {
+        line-height: 4rem;
+      }
+
+      & > div {
+        border-bottom: none;
+        border-right: 1px solid black;
+      }
+    }
+
+    &__networks {
+      flex-direction: column;
+      width: 10%;
+      height: 100%;
+
+      .linkedin {
+        width: 20px;
+        height: 20px;
+      }
+
+      .github {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
